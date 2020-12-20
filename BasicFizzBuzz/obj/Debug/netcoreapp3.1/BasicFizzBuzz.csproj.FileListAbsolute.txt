@@ -1,0 +1,16 @@
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\bin\Debug\netcoreapp3.1\BasicFizzBuzz.exe
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\bin\Debug\netcoreapp3.1\BasicFizzBuzz.deps.json
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\bin\Debug\netcoreapp3.1\BasicFizzBuzz.runtimeconfig.json
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\bin\Debug\netcoreapp3.1\BasicFizzBuzz.runtimeconfig.dev.json
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\bin\Debug\netcoreapp3.1\BasicFizzBuzz.dll
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\bin\Debug\netcoreapp3.1\BasicFizzBuzz.pdb
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\bin\Debug\netcoreapp3.1\SuperFizzBuzz.dll
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\bin\Debug\netcoreapp3.1\SuperFizzBuzz.pdb
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\obj\Debug\netcoreapp3.1\BasicFizzBuzz.csprojAssemblyReference.cache
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\obj\Debug\netcoreapp3.1\BasicFizzBuzz.AssemblyInfoInputs.cache
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\obj\Debug\netcoreapp3.1\BasicFizzBuzz.AssemblyInfo.cs
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\obj\Debug\netcoreapp3.1\BasicFizzBuzz.csproj.CoreCompileInputs.cache
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\obj\Debug\netcoreapp3.1\BasicFizzBuzz.csproj.CopyComplete
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\obj\Debug\netcoreapp3.1\BasicFizzBuzz.dll
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\obj\Debug\netcoreapp3.1\BasicFizzBuzz.pdb
+D:\Home\Projects\.NET\FizzBuzz\BasicFizzBuzz\obj\Debug\netcoreapp3.1\BasicFizzBuzz.genruntimeconfig.cache

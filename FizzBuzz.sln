@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperFizzBuzz", "SuperFizzBuzz\SuperFizzBuzz.csproj", "{9C0F5C7F-B7D6-42ED-9454-DE475D4C7A53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperFizzBuzz.Tests", "SuperFizzBuzz.Tests\SuperFizzBuzz.Tests.csproj", "{456305CC-2334-4465-A2E8-6E0472D1C59A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicFizzBuzz", "BasicFizzBuzz\BasicFizzBuzz.csproj", "{A42C1EB5-4D0A-4AD3-9E57-CD450FCF0A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedFizzBuzz", "AdvancedFizzBuzz\AdvancedFizzBuzz.csproj", "{D0290CEC-8D6B-4E57-9935-6BB9CF4787EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0F5C7F-B7D6-42ED-9454-DE475D4C7A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0F5C7F-B7D6-42ED-9454-DE475D4C7A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0F5C7F-B7D6-42ED-9454-DE475D4C7A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0F5C7F-B7D6-42ED-9454-DE475D4C7A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{456305CC-2334-4465-A2E8-6E0472D1C59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456305CC-2334-4465-A2E8-6E0472D1C59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456305CC-2334-4465-A2E8-6E0472D1C59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456305CC-2334-4465-A2E8-6E0472D1C59A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42C1EB5-4D0A-4AD3-9E57-CD450FCF0A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42C1EB5-4D0A-4AD3-9E57-CD450FCF0A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42C1EB5-4D0A-4AD3-9E57-CD450FCF0A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42C1EB5-4D0A-4AD3-9E57-CD450FCF0A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0290CEC-8D6B-4E57-9935-6BB9CF4787EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0290CEC-8D6B-4E57-9935-6BB9CF4787EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0290CEC-8D6B-4E57-9935-6BB9CF4787EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0290CEC-8D6B-4E57-9935-6BB9CF4787EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
