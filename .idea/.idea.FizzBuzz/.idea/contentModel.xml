@@ -13,25 +13,25 @@
     <e p="C:\Users\Woody\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_FizzBuzz.1296384750.00" t="ExcludeRecursive" />
     <e p="C:\Users\Woody\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
     <e p="D:\Home\Projects\.NET\FizzBuzz" t="IncludeFlat">
-      <e p="AdvancedFizzBuzz" t="IncludeRecursive">
-        <e p="AdvancedFizzBuzz.csproj" t="IncludeRecursive" />
+      <e p="AdvancedApplication" t="IncludeRecursive">
+        <e p="AdvancedApplication.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="AdvancedFizzBuzz.AssemblyInfo.cs" t="Include" />
+              <e p="AdvancedApplication.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
         <e p="Program.cs" t="Include" />
       </e>
-      <e p="BasicFizzBuzz" t="IncludeRecursive">
-        <e p="BasicFizzBuzz.csproj" t="IncludeRecursive" />
+      <e p="ClassicApplication" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ClassicApplication.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="BasicFizzBuzz.AssemblyInfo.cs" t="Include" />
+              <e p="ClassicApplication.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>

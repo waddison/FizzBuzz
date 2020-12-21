@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AdvancedApplication/1.0.0": {
+        "dependencies": {
+          "SuperFizzBuzz": "1.0.0"
+        },
+        "runtime": {
+          "AdvancedApplication.dll": {}
+        }
+      },
+      "SuperFizzBuzz/1.0.0": {
+        "runtime": {
+          "SuperFizzBuzz.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdvancedApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperFizzBuzz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
