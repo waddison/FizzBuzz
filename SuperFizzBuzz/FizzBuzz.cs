@@ -65,8 +65,7 @@ namespace SuperFizzBuzz
 
             foreach (var kvp in sortedReplacementValues.Where(kvp => currentNumber % kvp.Key == 0 && currentNumber != 0))
             {
-                sortedReplacementValues.TryGetValue(kvp.Key, out var replacement);
-                replacedPrintItem += replacement;
+                replacedPrintItem += sortedReplacementValues[kvp.Key] ?? "";
             }
 
             return !string.IsNullOrEmpty(replacedPrintItem) ? replacedPrintItem : currentNumber.ToString();
