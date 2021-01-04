@@ -61,17 +61,15 @@ namespace SuperFizzBuzz
         private static string BuildPrintItem(int currentNumber, IDictionary<int, string> replacementValues)
         {
             var sortedReplacementValues = new SortedDictionary<int, string>(replacementValues);
-            var isReplacingValue = false;
             var replacedPrintItem = string.Empty;
 
             foreach (var kvp in sortedReplacementValues.Where(kvp => currentNumber % kvp.Key == 0 && currentNumber != 0))
             {
-                isReplacingValue = true;
                 sortedReplacementValues.TryGetValue(kvp.Key, out var replacement);
                 replacedPrintItem += replacement;
             }
 
-            return isReplacingValue ? replacedPrintItem : currentNumber.ToString();
+            return !string.IsNullOrEmpty(replacedPrintItem) ? replacedPrintItem : currentNumber.ToString();
         }
     }
 }
