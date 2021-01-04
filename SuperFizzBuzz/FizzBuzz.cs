@@ -12,7 +12,17 @@ namespace SuperFizzBuzz
             {5, "Buzz"}
         };
 
-        public List<string> CalculateRange([NotNull] int from = 1, [NotNull] int to = 100, Dictionary<int, string> replacementValues = null)
+        public List<string> CalculateRange()
+        {
+            return CalculateRange(1, 100);
+        }
+
+        public List<string> CalculateRange(int from, int to)
+        {
+            return CalculateRange(from, to, null);
+        }
+
+        public List<string> CalculateRange(int from, int to, Dictionary<int, string> replacementValues)
         {
             replacementValues ??= _defaultReplacementValues;
             var ascending = from < to;
@@ -43,7 +53,12 @@ namespace SuperFizzBuzz
             return processedFizzBuzz;
         }
 
-        public List<string> CalculateSpecifiedNumbers([NotNull] IEnumerable<int> suppliedValues, Dictionary<int, string> replacementValues = null)
+        public List<string> CalculateSpecifiedNumbers(IEnumerable<int> suppliedValues)
+        {
+            return CalculateSpecifiedNumbers(suppliedValues, null);
+        }
+
+        public List<string> CalculateSpecifiedNumbers(IEnumerable<int> suppliedValues, Dictionary<int, string> replacementValues)
         {
             replacementValues ??= _defaultReplacementValues;
 
