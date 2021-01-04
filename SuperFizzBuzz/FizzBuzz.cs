@@ -30,25 +30,18 @@ namespace SuperFizzBuzz
 
             var processedFizzBuzz = new List<string>();
 
-            do
+            for (var i = currentNumber; ascending ? i <= to : i >= to; )
             {
-                processedFizzBuzz.Add(BuildPrintItem(currentNumber, replacementValues));
-
                 if (ascending)
                 {
-                    if (currentNumber++ == to)
-                    {
-                        break;
-                    }
+                    processedFizzBuzz.Add(BuildPrintItem(i++, replacementValues));
                 }
                 else
                 {
-                    if (currentNumber-- == to)
-                    {
-                        break;
-                    }
+                    processedFizzBuzz.Add(BuildPrintItem(i--, replacementValues));
                 }
-            } while (true);
+
+            }
 
             return processedFizzBuzz;
         }
